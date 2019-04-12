@@ -1,7 +1,17 @@
 'use strict'
 
-function soma(va1, va2){
-	return va1 + va2
-}
+var React = require('react')
 
-module.exports = soma
+// function soma(va1, va2){
+// 	return va1 + va2
+// }
+//
+// module.exports = soma
+
+var Title = React.createClass({
+	render: function(){
+		return React.createElement('h1', {className: null}, 'Título')
+	}
+})
+
+module.exports = Title
